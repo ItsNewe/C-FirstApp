@@ -1,0 +1,31 @@
+﻿  Arme.cpp
+  C++FirstApp.cpp
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Duree.h(19,42): error C2535:  'void Duree::afficher(std::ostream &) const' : fonction membre déjà définie ou déclarée
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Duree.h(17): message :  voir la déclaration de 'Duree::afficher'
+  Duree.cpp
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\C++FirstApp.cpp(77,16): warning C4244:  'initialisation' : conversion de 'std::streamoff' en 'int', perte possible de données
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Duree.h(19,42): error C2535:  'void Duree::afficher(std::ostream &) const' : fonction membre déjà définie ou déclarée
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Duree.h(17): message :  voir la déclaration de 'Duree::afficher'
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Duree.cpp(35,46): error C3867:  'Duree::getHeures' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Duree.cpp(35,46): error C2296:  '+' : non conforme, l'opérande gauche est du type 'int (__thiscall Duree::* )(void) const'
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Duree.cpp(35,46): error C2297:  '+' : non conforme, l'opérande droit est du type 'int (__thiscall Duree::* )(void) const'
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Duree.cpp(36,50): error C3867:  'Duree::getMinutes' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Duree.cpp(36,50): error C3867:  'Duree::getSecondes' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Duree.cpp(36,50): error C2296:  '+' : non conforme, l'opérande gauche est du type 'int (__thiscall Duree::* )(void) const'
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Duree.cpp(36,50): error C2297:  '+' : non conforme, l'opérande droit est du type 'int (__thiscall Duree::* )(void) const'
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Duree.cpp(37,52): error C3867:  'Duree::getSecondes' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Duree.cpp(37,52): error C3867:  'Duree::setSecondes' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Duree.cpp(37,52): error C2296:  '+' : non conforme, l'opérande gauche est du type 'int (__thiscall Duree::* )(void) const'
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Duree.cpp(37,52): error C2297:  '+' : non conforme, l'opérande droit est du type 'void (__thiscall Duree::* )(int)'
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Duree.cpp(44,29): error C3867:  'Duree::getSecondes' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Duree.cpp(44,29): error C2297:  '+=' : non conforme, l'opérande droit est du type 'int (__thiscall Duree::* )(void) const'
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Duree.cpp(51,27): error C3867:  'Duree::getMinutes' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+  Guerrier.cpp
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Duree.cpp(51,27): error C2297:  '+=' : non conforme, l'opérande droit est du type 'int (__thiscall Duree::* )(void) const'
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Guerrier.cpp(5,60): error C2059:  erreur de syntaxe : '='
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Guerrier.cpp(12,1): error C2509:  'sePresenter' : fonction membre non déclarée dans 'Guerrier'
+  Personnage.cpp
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Guerrier.h(10): message :  voir la déclaration de 'Guerrier'
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Personnage.cpp(52,13): error C2440:  'return' : impossible de convertir de 'const Personnage *' en 'Personnage *'
+  Génération de code en cours...
+C:\Users\Newe\source\repos\C++FirstApp\C++FirstApp\Personnage.cpp(52,9): message :  La conversion perd les qualificateurs
