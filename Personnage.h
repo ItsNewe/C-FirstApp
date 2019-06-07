@@ -1,7 +1,6 @@
 #pragma once
 #ifndef DEF_PERSONNAGE
 #define DEF_PERSONNAGE
-
 #include <string>
 #include "Arme.h"
 

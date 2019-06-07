@@ -1,7 +1,6 @@
 #pragma once
 #ifndef DEF_ARME
 #define DEF_ARME
-
 #include <string>
 
 class Arme {

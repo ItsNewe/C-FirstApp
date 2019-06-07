@@ -1,11 +1,11 @@
 #include <iostream>
 #include "Vehicules.h"
 
+Vehicule::~Vehicule() {} //Même si les destruct ne servent a rien, on doit les mettre (poly)
 void Vehicule::affiche() const
 {
 	std::cout << "Ceci est un vehicule." << std::endl;
 }
-Vehicule::~Vehicule(){} //Même si les destruct ne servent a rien, on doit les mettre (poly)
 
 Voiture::~Voiture() {}
 void Voiture::affiche() const

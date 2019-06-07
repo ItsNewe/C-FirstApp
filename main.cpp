@@ -17,6 +17,7 @@ void direBonjour() //Fonction sans retour
 
 void f1(string const& texte)  //Pas de copie et pas de modification possible
 {}
+
 /*
  *  Fonction qui calcule la moyenne des éléments d'un tableau
  *  - tableau : Le tableau dont on veut la moyenne

@@ -2,7 +2,8 @@
 #include <string>
 #include "Guerrier.h"
 
-Guerrier::Guerrier(std::string nom): Personnage(nom), m_vie=200{}
+Guerrier::Guerrier(std::string nom): Personnage(nom), m_vie(200)
+{}
 
 void Guerrier::crier(std::string phrase = "AAAAAAAH") {
 	std::cout << phrase;

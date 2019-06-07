@@ -13,6 +13,7 @@ class Guerrier : public Personnage
 public:
 	Guerrier(std::string nom);
 	void crier(std::string phrase);
+	void sePresenter() const;
 
 };
 

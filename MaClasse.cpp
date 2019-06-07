@@ -9,13 +9,16 @@ maClasse::maClasse()
 {
 	compteur++;
 }
+
 maClasse::~maClasse() {
 	compteur--;
 }
+
 void maClasse::maMethode() //Ne pas remettre 'static' dans l'implémentation
 {
 	std::cout << "Bonjour !" << std::endl;
 }
+
 int maClasse::nombreInstances() {
 	return compteur;
 }

@@ -1,8 +1,7 @@
 #include "Duree.h"
 #include <ostream>
 Duree::Duree(int heures, int minutes, int secondes) : m_heures(heures), m_minutes(minutes), m_secondes(secondes)
-{
-}
+{}
 
 bool Duree::estEgal(Duree const& b) const
 {
@@ -25,10 +24,12 @@ bool operator==(Duree const& a, Duree const& b)
 {
 	return (a.estEgal(b));
 }
+
 bool operator!=(Duree const& a, Duree const& b)
 {
 	return !(a == b);
 }
+
 Duree operator+(Duree const& a, Duree const& b)
 {
 	Duree resultat;
