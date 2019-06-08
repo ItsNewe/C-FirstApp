@@ -18,6 +18,10 @@ int Voiture::nbrRoues() const
 }
 
 Moto::~Moto() {}
+int Moto::nbrRoues() const
+{
+	return 2;
+}
 void Moto::affiche() const
 {
 	std::cout << "Ceci est une moto." << std::endl;

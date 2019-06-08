@@ -5,7 +5,7 @@ class Vehicule
 public:
 	virtual void affiche() const;  //Affiche une description du Vehicule
 	virtual ~Vehicule(); //Un destructeur doit toujours être virtuel si l'objet utilise le polymorphisme
-	virtual int nbrRoues() const = 0; //Méthode virtuelle pure, les classes filles ne ont mais pas la mère
+	virtual int nbrRoues() const = 0; //Méthode virtuelle pure, les classes filles l'ont mais pas la mère
 protected:
 	int m_prix;  //Chaque véhicule a un prix
 };

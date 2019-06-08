@@ -14,7 +14,7 @@ maClasse::~maClasse() {
 	compteur--;
 }
 
-void maClasse::maMethode() //Ne pas remettre 'static' dans l'implémentation
+void maClasse::maMethode() //Ne pas mettre 'static' dans l'implémentation
 {
 	std::cout << "Bonjour !" << std::endl;
 }

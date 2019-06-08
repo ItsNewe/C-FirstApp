@@ -14,11 +14,13 @@ class Duree
 		void setMinutes(int v);
 		void setSecondes(int v);
 		bool estEgal(Duree const& b) const;
-		void afficher(std::ostream& flux) const;
+		
 		Duree& operator+=(Duree const& a);
 		void afficher(std::ostream& flux) const;
 
 	private:
+		void afficher(std::ostream& flux) const;
+		friend std::ostream& operator<< (std::ostream& flux, Duree const& duree); //operator<< est amie de Duree: elle a accès à tous ses attributs
 		int m_heures;
 		int m_minutes;
 		int m_secondes;
@@ -27,4 +29,5 @@ class Duree
 bool operator==(Duree const& a, Duree const& b);
 bool operator!=(Duree const& a, Duree const& b);
 Duree operator+(Duree const& a, Duree const& b);
+
 #endif
